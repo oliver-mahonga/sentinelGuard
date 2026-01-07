@@ -1,0 +1,3 @@
+/home/oliver/SentinelGuard/build/CMakeFiles/sentinel_guard.dir
+/home/oliver/SentinelGuard/build/CMakeFiles/edit_cache.dir
+/home/oliver/SentinelGuard/build/CMakeFiles/rebuild_cache.dir
