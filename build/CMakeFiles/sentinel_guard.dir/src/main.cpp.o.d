@@ -153,4 +153,9 @@ CMakeFiles/sentinel_guard.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h
+ /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
+ /home/oliver/SentinelGuard/include/process_monitor.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc
