@@ -2,6 +2,9 @@
 #include <thread>
 #include <chrono>
 #include "process_monitor.h"
+#include "rule_engine.h"
+#include "system_stats.h"
+
 
 
 void printBanner() {
@@ -22,11 +25,20 @@ int main() {
 
     while (true) {
     auto processes = getRunningProcesses();
-    std::cout << "[SentinelGuard] Active processes: "
-              << processes.size() << std::endl;
+    auto stats = getSystemStats();
+
+    std::cout << "[SentinelGuard] Processes: " << processes.size()
+              << " | CPU: " << stats.cpuUsagePercent << "%"
+              << " | MEM: " << stats.memoryUsagePercent << "%"
+              << std::endl;
+
+    evaluateRules(processes);
+    evaluateSystemRules(stats);
 
     std::this_thread::sleep_for(std::chrono::seconds(5));
 }
+
+
 
 
     return 0;
