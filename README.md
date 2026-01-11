@@ -120,10 +120,3 @@ SentinelGuard is a portfolio-focused project intended to demonstrate:
 * Clean C++ architecture suitable for security and automation systems
 
 ---
-
-## Future Improvements
-
-* Config-driven rules via `rules.conf`
-* Multithreaded monitoring engine
-* Network activity monitoring
-* Cross-platform abstractions
